@@ -48,7 +48,7 @@
 .homepage_rectangle2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
   top: 50%;
   height: 10rem;
@@ -62,45 +62,74 @@
   height: 50px;
   width: 150px;
   background-color: black;
- 
 }
 .homepage_text_p3 {
-    text-align: center;
-    font-family: Playfair Display;
-    font-size: 1rem;
-    text-align: center;
-    color:white;
-  }
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
 
 .homepage_text_p4 {
   text-align: center;
   font-family: Playfair Display;
   font-size: 1rem;
   text-align: left;
-  color:white;
+  color: white;
   padding-left: 5rem;
 }
 
 .Homepage1 {
-    height: 10vw;
+  height: 10vw;
+  background-color: black;
+}
+
+/*End of Homepage*/
+
+/* Start of Menu */
+
+#Menu {
+  height: 95vw;
+  background-color: black; 
+}
+.Menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.img_square {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 25px;
+  background-color: #555;
+}
+
+.image {
+  object-fit: cover;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 25px;
+}
+
+
+.Menu_text_container {
     background-color: black;
-  }
-
-  /*End of Homepage*/
-
-  /* Start of Menu */
-
-  .Menu {
     display: flex;
-    flex-direction: column;
-  }
-
-  .Menu_img {
-    display:flex;
     flex-direction: row;
-  }
+    justify-content: space-around;
+}
 
-  .img_square {
-    width:50px;
-    height:50px;
-  }
+
+.menu_text_p1 {
+    color:white;
+    padding-right: 200px;
+    font-size: 30px;
+}
