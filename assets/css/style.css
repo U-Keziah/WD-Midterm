@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#Homepage {
+  height: 45vw;
+  background-color: black;
+}
+
+.Homepage {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage_img1 {
+  object-fit: cover;
+  height: 50vh;
+  width: 200vh;
+}
+
+.homepage_rectangle1 {
+  position: absolute;
+  top: 30%;
+  height: 15rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.homepage_text_h1 {
+  padding-top: 3rem;
+  font-family: Playfair Display;
+  font-size: 3rem;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.homepage_text_p1 {
+  padding-top: 10px;
+  font-family: Impact;
+  font-size: 1rem;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.homepage_rectangle2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  height: 10rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.homepage_rectangle3 {
+  padding-top: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+ 
+}
+.homepage_text_p3 {
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 1rem;
+    text-align: center;
+    color:white;
+  }
+
+.homepage_text_p4 {
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 1rem;
+  text-align: left;
+  color:white;
+  padding-left: 5rem;
+}
+
+.Homepage1 {
+    height: 10vw;
+    background-color: black;
+  }
+
+  /*End of Homepage*/
+
+  /* Start of Menu */
+
+  .Menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Menu_img {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .img_square {
+    width:50px;
+    height:50px;
+  }
