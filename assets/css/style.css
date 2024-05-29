@@ -89,10 +89,7 @@
 
 /* Start of Menu */
 
-#Menu {
-  height: 95vw;
-  background-color: black; 
-}
+
 .Menu {
   display: flex;
   flex-direction: column;
