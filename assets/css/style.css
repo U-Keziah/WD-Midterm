@@ -4,6 +4,38 @@
   padding: 0;
 }
 
+header{
+  display: flex;
+  align-items: center;
+  background-color: #555;
+  height: 10dvh;
+
+  & .resume {
+   
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 25px;
+    transition: all ease-in 1s;
+  
+    & > a{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+  
+    &:hover{
+        background-color: #ef97a6;
+    
+  }
+  }
+}
+
+
 #Homepage {
   height: 45vw;
   background-color: black;
